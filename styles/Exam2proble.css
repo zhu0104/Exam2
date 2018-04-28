@@ -1,0 +1,13 @@
+#section1{ background-color: #FFFFCC; visibility: hidden;}
+#section1 {position: absolute; top: 125px; width: 600px;}
+#section2{ background-color: #FFFFCC; visibility: hidden;}
+#section2 {position: absolute; top: 125px; width: 600px;}
+#section3
+{ background-color: #FFFFCC; visibility: hidden;}
+#section3 {position: absolute; top: 125px; left: 10px; width: 600px;}
+#section4
+{ background-color: #FFFFCC; visibility: hidden;}
+#section4 {position: absolute; top: 125px; left: 10px; width: 600px;}
+#section5
+{ background-color: #FFFFCC; visibility: hidden;}
+#section5 {position: absolute; top: 125px; left: 10px; width: 600px;}

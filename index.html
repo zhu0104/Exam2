@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Aaron Zhu Exam 2</title>
+    <link rel="stylesheet" type="text/css" href="styles/Exam2proble.css"/>
+    <script src="js/Exam2problem.js"></script>
+</head>
+
+<body>
+ <!-- Drop Down Menu. -->
+ <select onchange="Dmenu()" id="dmenu">
+    <option>Please pick an option</option>
+    <option>Categories</option>
+    <option>Add Product Category</option>
+    <option>Update Product</option>
+    <option>Delete Category</option>
+    <option>About Me</option>
+ </select>
+ 
+ 
+ 
+    
+ <!-- Drop Down Menu End -->   
+    
+<!-- Section 1. -->
+<section id="section1" class="section1">
+        <h1>Categories</h1>
+    <button onclick="GetList()" id="orders1">Get Categories</button>
+            <hr>
+            <br>
+    <label id="display1">Display Info Here</label>
+</section>
+<!-- Section 1 End -->
+
+
+
+
+
+
+<!-- Section 2. -->
+
+<section id="section2" class="section2">
+    <h1>Add Product Category</h1>
+<br>
+    <label>Please enter category name</label>
+    <input type="text" id="catname">
+        <br>
+    <label>Please enter the description</label>
+    <input type="text" id="cdescription">
+<br>
+    <button onclick="CreateCategory()" id="newcat">Add a Category</button>
+    <br>
+        <hr>
+            <br>
+    <label id="result">The operation's result will display here.</label>
+    <hr>
+    <br>
+    
+</section>
+
+
+<!-- Section 2 End -->
+
+
+
+
+
+
+
+<!-- Section 3. -->
+<section id="section3" class="section3">
+    <h1>Updating Categories</h1>
+    <label>Please enter ID</label>
+    <input type="text" id="catid">
+        <br>
+    
+    <label>Please enter the new description</label>
+    <input type="text" id="catdescript">
+        <br>
+            
+        <button onclick="Updatecat()" id="updatecategory">Update the category</button>
+        <br>
+        <hr>
+            <br>
+        <label id="result2">The operation's result will display here.</label>
+        <hr>
+    
+</section>
+
+
+
+<!-- Section 3 End -->
+
+
+
+
+
+
+
+
+
+<!-- Section 4. -->
+
+<section id="section4" class="section4">
+    <h1>Deleting Category</h1>
+    
+    <label>Please enter the Category ID</label>
+    <input type="text" id="deleteid">
+        <br>
+    <button onclick="DeleteCatID()" id="deletebtn">Delete</button>
+    <br>
+        <hr>
+            <br>
+    <label id="result3">The operation's result will display here.</label>
+    <hr>
+        <br>
+</section>
+
+
+
+<!-- Section 4 End -->
+
+
+<!-- Section 5. -->
+
+<section id= "section5" class="section5">
+    <h1>About Me</h1>
+    
+    <label>Hello I really enjoy coding and solving issues that could happen in the real world. Although this class was very difficult for me, I had a lot of fun. I really enjoy that moment when the lightbulb pops up above your head and you go "ahhh".</label>
+</section>
+
+
+
+<!-- Section 5 End -->
+
+</body>
+</html>
+
